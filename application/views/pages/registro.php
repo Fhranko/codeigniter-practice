@@ -10,6 +10,7 @@
   <?php foreach ($menu as $item):?>
     <li><a href="<?= $item['url'] ?>"><?= $item['title'] ?> </a></li>  
   <?php endforeach; ?>
+  <?php echo validation_errors();?>
   <?php 
     echo form_open('registro/create', array('mehtod' => 'POST'));
     echo form_label('Nombre de Ususario: ');
