@@ -60,15 +60,5 @@ class Registro extends CI_Controller {
         $data['msg'] = "Datos Registrados correctamente";
         $this->load->view('pages/registro', $data);
       }
-
-    
-    // $data['menu'] = main_menu();
-    // if($this->Users->crear_usuarios($datos)){
-     
-    // }else {
-    //   $data['msg'] = "Error en intentar registrar los datos";
-    //   $this->load->view('pages/registro', $data);
-    // }
-
   }
 }
